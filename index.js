@@ -18,7 +18,7 @@ connect.then(() => {
     })
     .then(campsite => {
         console.log(campsite);
-        return campsite.find();
+        return Campsite.find();
     })
     .then(campsite => {
         console.log(campsite);
